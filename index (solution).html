@@ -10,11 +10,13 @@
   Add appropriate css rules to the internal styles section of the HTML page to complete these tasks. 
 -->
 
-<!-- PROBLEM 1: Change the background colors for the main section and footer to #252422 and #eb5e28 respectively. Change the color of all text in the main section to #fffcf2 -->
-<!-- PROBLEM 2: Add CSS rules to align the heading "Bloom" and the nav items so they are centered perfectly across the vertical axis of the header section-->
-<!-- PROBLEM 3: Remove the bullets (disc) on the unordered nav list items -->
-<!-- PROBLEM 4: Add a spacing of at least 20px between the main section and the header and footer sections. Be careful not to leave whitespaces between the sections -->
-<!-- PROBLEM 5: Position the footer elements so they sit at the center of the footer section -->
+<!-- PROBLEM 1: Change the background colors for the main and footer tags to #252422 and #eb5e28 respectively. Change the color of all text in the main tag to #fffcf2 -->
+<!-- PROBLEM 2: Set the CSS rule "align-items: center;" on the header tag to align the heading "Bloom" and the nav items so they are centered perfectly across the vertical axis of the header section-->
+<!-- PROBLEM 3: Remove the bullets (disc) on the unordered nav list items using "list-style-type: none;" -->
+<!-- PROBLEM 4: Add a spacing of at least 20px between the main tag and the header and footer tags. Be careful not to leave whitespaces between the sections. 
+      HINT: Set the padding-top and padding-bottom properties on the main tag -->
+<!-- PROBLEM 5: Position the footer elements so they sit at the center of the footer section.
+      HINT: Use "align-items: center" and "justify-content: center" rules on the footer tag -->
 <!-- PROBLEM 6(DEBUGGING): The background color for the header section does not cover the entire width of the webpage. Change one of the css properties for the header section to fix this -->
 
 <head>
@@ -65,9 +67,11 @@
     }
 
     main {
-      color: #fffcf2;
+      color: #fffcf2;   /* PROBLEM 1 */
       height: calc(100vh - 80px - 100px);
       padding: 20px 5%;   /* PROBLEM 4 */
+      /* padding-top: 20px;
+      padding-bottom: 20px; */
       background-color: #252422;  /* PROBLEM 1 */
     }
 
