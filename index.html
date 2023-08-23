@@ -53,8 +53,9 @@
       height: 80px;
       display: flex;
       justify-content: space-between;
-      margin: 10px 5%;
+      padding: 10px 5%; /* 6 - margin to padding */
       background-color: #fffcf2;
+      align-items: center; /* 2 */
     }
 
 
@@ -62,18 +63,25 @@
       display: flex;
       width: 200px;
       justify-content: space-between;
+      list-style-type: none; /* 3 */
     }
 
     main {
-      color: #000000;
+      color: #fffcf2; /* 1 */
       height: calc(100vh - 80px - 100px);
-      padding: 0px 5%;  
+      padding: 20px 5%; /* 4 */
+      /* padding-top: 20px;
+      padding-bottom: 20px; */
+      background-color: #252422; /* 1 */
     }
 
     footer {
       height: 100px;
       display: flex;     
       flex-direction: column;
+      background-color: #eb5e28; /* 1 */
+      align-items: center; /* 5 */
+      justify-content: center; /* 5 */
     }
 
   </style>
